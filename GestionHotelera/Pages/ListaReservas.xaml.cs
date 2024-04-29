@@ -16,18 +16,13 @@ using System.Windows.Shapes;
 namespace GestionHotelera.Pages
 {
     /// <summary>
-    /// Lógica de interacción para Usuarios.xaml
+    /// Lógica de interacción para ListaReservas.xaml
     /// </summary>
-    public partial class Usuarios : Page
+    public partial class ListaReservas : Page
     {
-        public Usuarios()
+        public ListaReservas()
         {
             InitializeComponent();
-        }
-
-        private void ListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
-        {
-
         }
     }
 }

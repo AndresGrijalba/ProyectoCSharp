@@ -75,6 +75,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Pages\ListaReservas.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Pages\Reservas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -95,6 +99,9 @@
   <ItemGroup>
     <Compile Include="Pages\habitaciones.xaml.cs">
       <DependentUpon>habitaciones.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ListaReservas.xaml.cs">
+      <DependentUpon>ListaReservas.xaml</DependentUpon>
     </Compile>
     <Compile Include="Pages\Reservas.xaml.cs">
       <DependentUpon>Reservas.xaml</DependentUpon>
